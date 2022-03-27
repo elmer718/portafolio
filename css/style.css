@@ -1,4 +1,4 @@
-
+/*para patallas de mas de 1200px*/
 .head {
 	background-color: #8B86CC;
 	margin-top: 10px;
@@ -40,4 +40,26 @@ footer{
 .imgFooter{
 	width: 25px;
 	height: 25px;
+}
+
+/*pantallas max 900px*/
+@media screen and (max-width:  900px){
+	.footer{
+		font-size: 10px;
+	}
+	.imgFooter{
+		width: 15px;
+		height: 15px;
+	}
+}
+
+/*pantallas max 600px*/
+@media screen and (max-width:  600px){
+	.head > h1{
+		font-size: 20px;
+	}
+	.menu > a{
+		font-size: 12px;
+	}
+	
 }

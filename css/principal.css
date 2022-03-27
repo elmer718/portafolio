@@ -23,3 +23,41 @@ table{
     text-indent: initial;
     border-spacing: 3px;
 }
+
+
+/*pantallas max 900px*/
+@media screen and (max-width: 900px){
+	.img>img{
+		width: 200px;
+
+	}
+	table{
+		font-size: 12px;
+	}
+}
+
+/*pantallas max 600px*/
+@media screen and (max-width: 600px){
+	.img>img{
+		width: 150px;
+
+	}
+	.cuerpo {
+    	margin-top: 15px;
+    	flex-direction: column;
+    	justify-content: center;
+	}
+	.informacion{
+		margin-top: 10px;
+	}
+	table{
+		font-size: 12px;
+	}
+}
+
+/*pantallas max 300px*/
+@media screen and (max-width: 300px){
+	.menu{
+		margin-right: 0px;
+	}
+}

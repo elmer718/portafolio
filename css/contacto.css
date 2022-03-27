@@ -14,3 +14,17 @@ td > input{
 	width: 300px;
 	height: 100px;
 }
+
+/*pantallas max 500px*/
+@media screen and (max-width:  500px){
+	table{
+		font-size: 12px;
+	}
+	td > input{
+		width: 150px;
+	}
+	#descripcion{
+		width: 150px;
+		height: 50px;
+	}
+}
