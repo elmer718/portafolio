@@ -1,7 +1,8 @@
 
 .head {
 	background-color: #8B86CC;
-
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .head > h1{
 	margin: 5px;
@@ -22,31 +23,6 @@
 
 body {
 	background-color: #B8B8B8;
-}
-.cuerpo{
-	display: flex;
-	justify-content: space-evenly;
-    align-items: center;
-    margin-top: 15px;
-}
-.img{
-	margin-left: 20px;
-	margin-right: 10px;
-}
-.img>img{
-	display: block;
-	border-radius: 100%;
-}
-.informacion{
-	margin-left: 20px;
-	margin-right: 40px;
-}
-table{
-	display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 3px;
 }
 
 footer{
