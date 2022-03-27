@@ -32,7 +32,12 @@ footer{
 .footer{
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }
 .footer > div{
 	margin: 5px;
+}
+.imgFooter{
+	width: 25px;
+	height: 25px;
 }
